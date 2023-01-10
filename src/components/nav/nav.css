@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 96.8%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  aqua;
+    padding: 20px;
+}
+
+.nav .get_user_btn{
+    margin-right: 6rem;
+}
+
+.get_user_btn button{
+    color: white;
+    width: 4rem;
+    height: 2rem;
+    background-color: #242e40;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+.get_user_btn button:hover{
+    transform: scale(1.2);
+}
+
+.nav .brand_name{
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 40px;
+    margin-left: 5rem;
+}
+
+.users{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 0;
+    height: 80vh;
+}
