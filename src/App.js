@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-        <NAV data = {data} brand = {"CSCoder"} click={onClickHandler} isLoading = {loading}/>    
+        <NAV data = {data} brand = {"Sabira"} click={onClickHandler} isLoading = {loading}/>    
     </>
   );
 }
